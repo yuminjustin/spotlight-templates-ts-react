@@ -1,0 +1,13 @@
+@value colors: "./color.css";
+@value pt18, dark from colors;
+
+.hw {
+    composes: center from './color.css';
+    padding: pt18;
+    color: dark;
+}
+
+.hw_p {
+    font-size: 18px;
+    line-height: 64px;
+}
