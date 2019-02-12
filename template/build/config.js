@@ -29,7 +29,7 @@ module.exports = {
         publicPath: "/",
         static: 'static',
         outputPath: path.resolve(__dirname, outputPath), // 临时
-        port: '3001',
+        port: '6001',
         html5Router: false, // html5 router 
         htmlOption: { // 对应 entry
             app: {
