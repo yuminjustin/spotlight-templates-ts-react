@@ -3,12 +3,15 @@
         "module": "commonjs",
         "target": "es5",
         "sourceMap": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
         "jsx": "react",
-        "types":[
-            "node"
+        "types": [
+            "node",
+            "webpack-env"
         ]
     },
     "exclude": [
         "node_modules"
     ]
-  }
+}
