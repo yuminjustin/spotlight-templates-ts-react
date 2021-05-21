@@ -18,5 +18,6 @@ This template is base on webpack, support for react+typescript development <br>
 
 1.配置在build/config.js 当中；<br>
   Configures in build/config.js <br><br>
+2.内置Todo示例
 
 Let's react ，enjoy!
