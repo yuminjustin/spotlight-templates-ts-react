@@ -73,7 +73,7 @@ exports.styleLoaders = function (isdev) {
             use: [
                 isdev ? 'style-loader' : MiniCssExtractPlugin.loader,
                 'css-modules-typescript-loader',
-                'css-loader?modules&localIdentName=[local]_[hash:base64:5]',
+                'css-loader?localIdentName=[local]_[hash:base64:5]',
                 'postcss-loader'
             ]
         }
