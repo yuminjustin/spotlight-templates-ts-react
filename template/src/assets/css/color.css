@@ -1,7 +1,0 @@
-/* postcss example */
-@value pt18: 18px 0;
-@value dark: #333;
-
-.center {
-    text-align: center;
-}
