@@ -1,5 +1,5 @@
 /* 自定义配置 */
-var path = require('path'),
+let path = require('path'),
     outputPathName = 'dist', // 输出目录名称
     outputPath = '../../' + outputPathName;
 
@@ -29,6 +29,7 @@ module.exports = {
         publicPath: "/",
         static: 'static',
         outputPath: path.resolve(__dirname, outputPath), // 临时
+        host: 'localhost',
         port: '6001',
         html5Router: false, // html5 router 
         htmlOption: { // 对应 entry
